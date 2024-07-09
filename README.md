@@ -1,8 +1,26 @@
  # RFM_Analysis_of_Retail_Sales_Data 
 
 ### :file_folder: Project Overview
+This project focuses on performing RFM (Recency, Frequency, Monetary) analysis on anonymised retail store sales transactions sourced from [Kaggle](https://www.kaggle.com/datasets/marian447/retail-store-sales-transactions/data). By leveraging transactional data, this project aims to understand customer behaviour and optimise marketing strategies to enhance customer retention.
 
-Welcome to the RFM Analysis of Retail Sales Data project! This project focuses on performing RFM (Recency, Frequency, Monetary) analysis on anonymised retail store sales transactions sourced from [Kaggle](https://www.kaggle.com/datasets/marian447/retail-store-sales-transactions/data). By leveraging transactional data, this project aims to understand customer behavior and optimise marketing strategies to enhance customer retention.
+**What is RFM Analysis?** 
+
+RFM analysis is a marketing technique used to quantitatively rank and group customers based on their transaction history. It considers three factors:
+
+- **Recency**: How recently did the customer make a purchase?
+- **Frequency**: How often do they make purchases?
+- **Monetary**: How much do they spend?
+
+By scoring customers based on these three metrics, businesses can identify their most valuable customers, tailor marketing efforts, and improve customer engagement and retention strategies.
+
+**Why Perform RFM Analysis?**
+
+Understanding customer behaviour is crucial for effective marketing. RFM analysis helps businesses:
+
+- Segment customers into different groups based on their purchase behavior.
+- Identify loyal customers who frequently purchase and spend more.
+- Develop targeted marketing campaigns to increase customer satisfaction and retention.
+- Predict future customer behavior and identify at-risk customers who may need re-engagement.
 
 ### 📊 Dataset 
 
@@ -12,24 +30,14 @@ The dataset includes the following attributes: Date of Sales Transaction, Custom
 
 ### 🎯 Objectives
 
-- Seasonal and Trend Analysis: Monitor trends in transaction volume and revenue over time, with a focus on identifying seasonal variations and peak periods of consumer spending.
-  
-- Segment customers based on their RFM scores
-    - **Recency**: How recently customers made a purchase.
-    - **Frequency**: How often customers make purchases.
-    - **Monetary value**: How much customers spend.
-  
--  Develop actionable recommendations to optimise marketing strategies and enhance customer retention efforts.
-  
+- **Data Exploration**: Analyse and preprocess the dataset.
+- **RFM Scoring**: Calculate the recency, frequency, and monetary values for each customer.
+- **Customer Segmentation**: Segment customers into different groups based on their RFM scores.
+- **Analysis and Insights**: Explore patterns in consumer spending, identify trends in product preferences, and derive actionable insights to optimise marketing strategies and enhance customer retention efforts.
+
 ### 🛠️ Tools Used
 
 - **SQL Server**: This project utilises SQL Server as the primary database management system for querying and performing data analysis.
-### :chart_with_upwards_trend: Methodologies
-
-- **Data Preparation**: The dataset (`scanner_data.csv`) was already clean and ready for analysis, requiring no additional preprocessing steps.
-- **RFM Calculation**: Compute RFM scores for each customer using SQL queries to quantify their purchasing behavior based on Recency, Frequency, and Monetary metrics.
-- **Customer Segmentation**: Group customers into distinct segments based on RFM scores to understand their value and engagement levels within the retail environment.
-- **Analysis and Insights**: Explore patterns in consumer spending, identify trends in product preferences, and derive actionable insights to optimise marketing strategies and enhance customer retention efforts.
 
 ### :key: Key Metrics and Findings 
 
@@ -50,20 +58,23 @@ The dataset includes the following attributes: Date of Sales Transaction, Custom
 
     - **January** recorded the lowest revenue of $111,200.28
   
-3.**Notable Revenue Increase**: 
+3. **Notable Revenue Increase**: 
 
-**March to May** Steady revenue increase from $127,924.54 in March to $142,719.86 in May, indicating rising consumer activity during spring.
+   - **March to May**: steady revenue increase from $127,924.54 in March to $142,719.86 in May, indicating rising consumer activity during spring.
 
-Mid-Year Decline:
+4. **Mid-Year Decline**:
 
-June to August: Revenue dropped consistently, with August reaching $116,908.98, suggesting a typical summer slowdown.
-Autumn Recovery:
+   - **June to August**: Revenue dropped consistently, with August reaching $116,908.98, suggesting a summer slowdown.
 
-September: Revenue rebounded to $141,239.89 from 5,732 transactions, signaling increased spending as the holiday season approaches.
-2. **Top Selling Products in December**:
+5. **Autumn Recovery**:
+
+  - **September**: Revenue rebounded to $141,239.89 from 5,732 transactions, signaling increased spending as the holiday season approaches.
+
+**Top Selling Products in December**:
+
 - UNJKW: 271 transactions
 - E3PAN: 105 transactions
-- Distinct Products Sold (SKU): 2,663
+- Total Distinct Products Sold (SKU): 2,663
 
 **RFM Analysis**
 
@@ -131,7 +142,7 @@ September: Revenue rebounded to $141,239.89 from 5,732 transactions, signaling i
 
 **Seasonal Promotions**:
 
-- **Holiday Campaigns**: Capitalize on the high sales in December by planning targeted marketing campaigns and discounts to drive more traffic and increase sales.
+- **Holiday Campaigns**: Capitalise on the high sales in December by planning targeted marketing campaigns and discounts to drive more traffic and increase sales.
   
 - **Post-Holiday Engagement**: Implement strategies to maintain customer engagement in January, such as loyalty rewards, special promotions, or clearance sales to counter the post-holiday slump.
 
@@ -139,14 +150,14 @@ September: Revenue rebounded to $141,239.89 from 5,732 transactions, signaling i
 
 - **Top Products Focus**: Ensure that top-selling products like UNJKW and E3PAN are well-stocked during peak months to avoid stockouts and lost sales opportunities.
   
-- **Inventory Optimization**: Use monthly sales data to forecast demand more accurately and adjust inventory levels accordingly, minimizing overstock and stockout situations.
+- **Inventory Optimisation**: Use monthly sales data to forecast demand more accurately and adjust inventory levels accordingly, minimising overstock and stockout situations.
 
 **Retention Strategies**:
 
-  - Implement targeted campaigns for **At Risk** and **Lost Customers** to re-engage them. Utilise personalized offers or reminders based on past behavior to regain their interest.
+  - Implement targeted campaigns for **At Risk** and **Lost Customers** to re-engage them. Utilise personalised offers or reminders based on past behaviour to regain their interest.
     
-  - Develop loyalty programs or incentives tailored to **Cannot Lose Them** customers to encourage more frequent and higher-value purchases.
+  - Develop loyalty programmes or incentives tailored to **Cannot Lose Them** customers to encourage more frequent and higher-value purchases.
     
-  - New Customer Nurturing: Focus on enhancing the onboarding experience for **New Customers** to increase their likelihood of making subsequent purchases. Consider welcome discounts or personalized recommendations based on their initial purchase.
+  - New Customer Nurturing: Focus on enhancing the onboarding experience for **New Customers** to increase their likelihood of making subsequent purchases. Consider welcome discounts or personalised recommendations based on their initial purchase.
 
 
