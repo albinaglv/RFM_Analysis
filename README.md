@@ -160,4 +160,9 @@ The dataset includes the following attributes: Date of Sales Transaction, Custom
     
   - New Customer Nurturing: Focus on enhancing the onboarding experience for **New Customers** to increase their likelihood of making subsequent purchases. Consider welcome discounts or personalised recommendations based on their initial purchase.
 
+### References:
+
+1. [RFM Analysis For Successful Customer Segmentation](https://www.putler.com/rfm-analysis/). *Putler*
+2. [Retail Store Sales Transactions (Scanner Data)](https://www.kaggle.com/datasets/marian447/retail-store-sales-transactions/data). *Kaggle*
+
 
