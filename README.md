@@ -1,4 +1,4 @@
- # RFM Analysis of Retail Sales Data 
+# RFM Analysis of Retail Sales Data 
 
 ### :file_folder: Project Overview
 This project focuses on performing RFM (Recency, Frequency, Monetary) analysis on anonymised retail store sales transactions sourced from [Kaggle](https://www.kaggle.com/datasets/marian447/retail-store-sales-transactions/data). By leveraging transactional data, this project aims to understand customer behaviour and optimise marketing strategies to enhance customer retention.
